@@ -17,7 +17,7 @@ pipeline
             steps
             {
                 echo "build the code"
-                java Test 
+                bat 'java Test' 
 
             }
         }
