@@ -5,7 +5,7 @@ pipeline
     {
         stage('compile')
         {
-            stape
+            steps
             {
                 echo "complieing the code"
                 bat 'javac Test.java'
