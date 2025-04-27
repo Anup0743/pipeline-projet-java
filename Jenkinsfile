@@ -14,7 +14,7 @@ pipeline
         }
         stage('build')
         {
-            stape
+            steps
             {
                 echo "build the code"
                 java Test 
@@ -23,7 +23,7 @@ pipeline
         }
         stage('deploy')
         {
-            stape
+            steps
             {
                 echo "deploy the code"
                
